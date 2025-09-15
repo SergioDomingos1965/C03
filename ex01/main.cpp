@@ -1,11 +1,13 @@
+#include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
-
 int main()
 {
-    ScavTrap bot("Domingos");
-    bot.attack("Faustino");
-    bot.takeDamage(101);
-    bot.beRepaired(10);
-    bot.guardGate();
+    /*ClapTrap a("Bob");
+    a.attack("Bebe");
+    a.takeDamage(11);
+    a.beRepaired(5);*/
+    ScavTrap b;
+    b.attack("ana");
+
     return (0);
 }

@@ -2,10 +2,9 @@
 
 int main()
 {
-    ClapTrap bot("Domingos");
-    bot.attack("Ana");
-    bot.takeDamage(10);
-    bot.beRepaired(5);
-
+    ClapTrap a("Bob");
+    a.attack("Bebe");
+    a.takeDamage(11);
+    a.beRepaired(5);
     return (0);
 }
