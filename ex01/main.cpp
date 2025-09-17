@@ -6,8 +6,8 @@ int main()
     a.attack("Bebe");
     a.takeDamage(11);
     a.beRepaired(5);*/
-    ScavTrap b;
-    b.attack("ana");
+    ScavTrap b("ana");
+    b.attack("Bela");
 
     return (0);
 }
